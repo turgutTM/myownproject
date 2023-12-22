@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  background-color: rgb(230, 205, 159);
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.navbar-components {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left {
+  color: black;
+  flex: 4;
+  display: flex;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.navbar-center {
+  flex: 4;
+  display: flex;
+  font-size: 30px;
+  gap: 50px;
+  font-family: "Barlow Condensed", sans-serif;
+  color: black;
+  
+}
+
+.navbar-center a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.navbar-center p {
+  cursor: pointer;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-right button {
+  background-color: transparent;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-family: "Jost", sans-serif;
+  font-size: 19px;
+}
+
+.navbar-right button:hover {
+  color: white;
+  background-color: rgb(65, 83, 112);
+  transform: scale(1.12);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(112, 161, 241, 0.7);
+}
+.home-container {
+  background-image: url("../orange.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.home-components {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 40px;
+  font-family: "Arvo", serif;
+  font-size: 25px;
+  margin-right: 200px;
+  position: absolute;
+  top: 25%;
+  left: 17%;
+}
+.home-components img {
+  border: 2px solid rgb(5, 5, 5);
+  border-radius: 10px;
+  padding: 12px;
+  max-width: 350px;
+}
+.home-components span {
+  font-size: 14px;
+}
+.coffee {
+  text-decoration: none;
+}
+
+.footer-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}
+.footer-components {
+  color: white;
+  margin-top: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  color: rgb(242, 207, 166);
+}
+
+.contact-mail {
+  margin-top: 30px;
+  font-size: 23px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.contact-mail p {
+  font-family: "Barlow Condensed", sans-serif;
+}

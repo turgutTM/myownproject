@@ -1,0 +1,72 @@
+.navbar-after-components {
+    display: flex;
+}
+.sidebar-after {
+    background-color: #0b0c10;
+    width: 120px;
+    height: 100vh;
+
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 100px;
+    gap: 120px;
+    align-items: center;
+}
+.icon {
+    font-size: 30px;
+}
+.nav-link {
+  color: rgb(233, 158, 158);
+  cursor: pointer;
+  position: relative;
+  transition: color 0.4s;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transform: scaleX(0);
+  transition: transform 0.4s, background-color 0.4s;
+}
+
+.nav-link:hover {
+  color: #b1bdea;
+}
+
+.nav-link:hover::before {
+  transform: scaleX(1);
+  background-color: white;
+}
+
+  
+
+.sidebar-after p{
+    color: white;
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 30px;
+    margin-left: 1px;
+    
+}
+
+.navbar-other {
+ display: flex;
+ align-items: center;
+ justify-content: space-between
+}
+
+.home-after-container {
+
+}
+.home-after-components {
+    
+}

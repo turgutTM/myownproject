@@ -1,0 +1,62 @@
+
+  .form-container {
+    background-image: url("../view.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .form {
+    background-image: url("../view2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 80%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form h4 {
+    text-align: center;
+    font-size: 40px;  
+    margin-bottom: 50px;
+    font-family: 'Barlow Condensed', sans-serif;    
+  }
+  
+  .member-btn {
+    font-size: 25px;
+    margin-left: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .member-btn:hover{
+    font-size: 28px;
+    color: white;
+    background-color: rgb(92, 131, 193);
+    transform: scale(0.2); 
+    transition: transform 0.1s ease, background-color 0.1s ease; 
+    box-shadow: 0 0 50px rgba(112, 161, 241, 0.7); 
+    
+  }
+
+  .form p {
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(251, 233, 200);
+
+  }
+  
