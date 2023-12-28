@@ -37,7 +37,7 @@ const ShowNote = ({ showNote, setShowNote }) => {
                   <input className="first-input-1"></input>
                 </div>
                 <div className="second-input">
-                  <input className="second-input-2"></input>
+                  <textarea className="second-input-2"></textarea>
                 </div>
               </div>
             </div>
