@@ -1,0 +1,14 @@
+.all-notes-container {
+  width: 100%;
+  background-image: url("../ocean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.up-container-after {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    color: bisque;
+    font-size: 35px;
+}

@@ -2,7 +2,7 @@
     display: flex;
 }
 .sidebar-after {
-    background-color: #0b0c10;
+    background-color: #202434;
     width: 120px;
     height: 100vh;
 
@@ -20,7 +20,7 @@
     font-size: 30px;
 }
 .nav-link {
-  color: rgb(233, 158, 158);
+  color: rgb(255, 229, 142);
   cursor: pointer;
   position: relative;
   transition: color 0.4s;

@@ -1,7 +1,6 @@
 
 import { Form,Link } from "react-router-dom";
 import FormRow from '../components/FormRow';
-import "../css/login.css"
 
 const Login = () => {
   return (

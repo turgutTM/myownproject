@@ -1,11 +1,19 @@
-import React from 'react'
+import "../css/allnotes.css";
+import { SlNotebook } from "react-icons/sl";
 
 const AllNotes = () => {
   return (
-    <div>
-      All Notes
-    </div>
-  )
-}
+    <div className="all-notes-container">
+      <div className="all-notes-components">
+      <div className="up-container-after">
+        <div className="up-components">
+        <SlNotebook></SlNotebook>
+        </div>
+      </div>
 
-export default AllNotes
+      </div>
+    </div>
+  );
+};
+
+export default AllNotes;

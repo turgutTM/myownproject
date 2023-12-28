@@ -1,40 +1,98 @@
 .shownote-container {
-    position: absolute;
-    height: 100vh;
-    width: 90%;
-    background-color: rgba(0,0,0,0.7);
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .shownote-content {
-    width: 30%;
-    height: 25rem;
-    border-radius: 5px;
-    background-color: white;
-    opacity: 100%;
-    padding: 10px;
+  width: 46%;
+  height: 40rem;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 100%;
+  background-image: url("../blue.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 13px;
 }
 
 .close-btn-container {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .close-btn {
-    background: transparent;
-    border: none;
+  background: transparent;
+  border: none;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .close-btn:hover {
-    scale: 120%;
-    cursor: pointer;
-    transition: ease-in-out 0.1s;
+  scale: 120%;
+  cursor: pointer;
+  transition: ease-in-out 0.1s;
 }
 
+.icon-pen {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+}
+.middle-container {
+  height: 92%;
+}
+.middle-components {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.first-input {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.first-input-1 {
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 15rem;
+  height: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: orange;
+    outline: none;
+  }
+}
+.second-input {
+  display: flex;
+  justify-content: center;
+}
+.second-input-2 {
+  border-radius: 10px;
+  text-align: left;
+  font-size: 20px;
+  width: 91%;
+  height: 31.2rem;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: orange;
+    outline: none;
+  }
+}
+.close-icon {
+  margin-right: 5px;
+  margin-top: 5px;
+}
