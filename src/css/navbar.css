@@ -1,23 +1,22 @@
 .navbar-after-components {
-    display: flex;
+  display: flex;
 }
 .sidebar-after {
-    background-color: #202434;
-    width: 120px;
-    height: 100vh;
-
+  background-color: #202434;
+  width: 100px;
+  height: 100vh;
 }
 
 .sidebar-links {
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    margin-top: 100px;
-    gap: 120px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin-top: 70px;
+  gap: 100px;
+  align-items: center;
 }
 .icon {
-    font-size: 30px;
+  font-size: 25px;
 }
 .nav-link {
   color: rgb(255, 229, 142);
@@ -47,26 +46,21 @@
   background-color: white;
 }
 
-  
+.sidebar-after p {
+  color: white;
+  font-size: 28px;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 30px;
 
-.sidebar-after p{
-    color: white;
-    font-size: 35px;
-    font-family: 'Bebas Neue', sans-serif;
-    padding: 30px;
-    margin-left: 1px;
-    
 }
 
 .navbar-other {
- display: flex;
- align-items: center;
- justify-content: space-between
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .home-after-container {
-
 }
 .home-after-components {
-    
 }

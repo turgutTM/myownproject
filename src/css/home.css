@@ -22,25 +22,23 @@
   flex: 4;
   display: flex;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 50px;
+  font-size: 35px;
   margin-left: 20px;
 }
 
 .navbar-center {
   flex: 4;
   display: flex;
-  font-size: 30px;
+  font-size: 26px;
   gap: 50px;
   font-family: "Barlow Condensed", sans-serif;
   color: black;
-  
 }
 
 .navbar-center a {
   color: black;
   text-decoration: none;
 }
-
 
 .navbar-center p {
   cursor: pointer;
@@ -54,13 +52,13 @@
 
 .navbar-right button {
   background-color: transparent;
-  padding: 8px 20px;
+  padding: 4px 15px;
   border: none;
   border-radius: 15px;
   cursor: pointer;
   color: rgb(0, 0, 0);
   font-family: "Jost", sans-serif;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .navbar-right button:hover {
@@ -83,10 +81,10 @@
   width: 47%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 21px;
   padding: 40px 40px;
   font-family: "Arvo", serif;
-  font-size: 25px;
+  font-size: 19px;
   margin-right: 200px;
   position: absolute;
   top: 25%;
@@ -115,7 +113,7 @@
   color: white;
   margin-top: 30px;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 30px;
+  font-size: 23px;
   color: rgb(242, 207, 166);
 }
 

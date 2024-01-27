@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../css/home.css";
-import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
@@ -34,10 +34,24 @@ const Home = () => {
       <section id="home" className="home">
         <div className="home-container">
           <div className="home-components">
-            <h1>Note what you have to do today, tomorrow or in the future <br />
-              <span> you can also note what you did wrong in the past :(</span> </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi ipsam accusamus earum quod quidem! Nam, et voluptatum, ipsam ullam, distinctio odio sit commodi facere soluta eius est illo consequatur?</p>
-            <a href="https://github.com/turgutTM?tab=repositories" target="_blank" className="coffee">
+            <h1>
+              Note what you have to do today, tomorrow or in the future <br />
+              <span>
+                {" "}
+                you can also note what you did wrong in the past to learn :)
+              </span>{" "}
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              excepturi ipsam accusamus earum quod quidem! Nam, et voluptatum,
+              ipsam ullam, distinctio odio sit commodi facere soluta eius est
+              illo consequatur?
+            </p>
+            <a
+              href="https://github.com/turgutTM?tab=repositories"
+              target="_blank"
+              className="coffee"
+            >
               <FontAwesomeIcon icon={faCoffee} style={{ color: "black" }} />
             </a>
           </div>
